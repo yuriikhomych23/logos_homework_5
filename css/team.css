@@ -1,0 +1,103 @@
+header nav .navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav .navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+header nav .navigation a:hover{
+    color: blue;
+}
+
+.container {
+    width: 95%;
+    height: 640px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    margin: auto 40px;
+}
+
+.team-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.andy-cube {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.jullian-jobb {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.russell-mccarthy {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.john-jonson {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.larry-mcgee {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.dominic-ain {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.estella-horton {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+.dominic-dain {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 250px;
+    height: 250px;
+}
