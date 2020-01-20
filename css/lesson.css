@@ -1,0 +1,25 @@
+header nav .navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav .navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+header nav .navigation a:hover{
+    color: blue;
+}
+
+.container {
+    width: 95%;
+    height: 640px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    margin: auto 40px;
+}

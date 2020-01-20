@@ -24,8 +24,9 @@ header nav .navigation a:hover{
     margin: auto 40px;
 }
 
-.team-row1 {
+.team {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 20px;
 }
@@ -100,4 +101,9 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
