@@ -21,7 +21,7 @@ header nav .navigation a:hover{
     border: 1px solid transparent;
     border-radius: 10px;
     background-color: #EAEAEA;
-    margin: auto 40px;
+    margin: 10px auto;
 }
 
 .name {
@@ -54,10 +54,10 @@ header nav .navigation a:hover{
 }
 
 .team {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 10px 20px 10px 50px;
 }
 
 
@@ -68,12 +68,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .andy-cube:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 
@@ -84,12 +85,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .jullian-jobb:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
  .russell-mccarthy {
@@ -99,12 +101,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .russell-mccarthy:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 
@@ -115,12 +118,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .john-jonson:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 .larry-mcgee {
@@ -130,12 +134,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .larry-mcgee:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 .dominic-ain {
@@ -145,12 +150,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .dominic-ain:hover{
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 .estella-horton {
@@ -160,12 +166,13 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .estella-horton:hover {
     background-color: lightblue;
-    transition: .8s;
+    transition: all 0.4s;
+    color: white;
 }
 
 .dominic-dain {
@@ -175,12 +182,14 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px; 
-    padding: 30px
+    padding: 25px
 }
 
 .dominic-dain:hover {
     background-color: lightblue;
-    transition: all 0.8s;
+    transition: all 0.4s;
+    color: white;
 }
+
 
 

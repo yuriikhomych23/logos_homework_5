@@ -22,15 +22,8 @@ header nav .navigation a:hover{
     border-radius: 10px;
     background-color: #EAEAEA;
     margin: auto 40px;
-    display: flex;
-    justify-content: space-around;
 }
 
-/* p {
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-} */
 
 .main-card {
     display: flex;
@@ -56,8 +49,26 @@ header nav .navigation a:hover{
     height: 110px;
 }
 
-/* .middle-card { */
-    /* display: flex;
-    justify-content: space-around;
-    padding-top: 40px; */
-/* } */
+.aside {
+    display: flex;
+    justify-content:left;
+    padding-left: 40px;
+}
+
+.icons {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 80px;
+    height: 400px;
+}
+
+.third-card {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 1rem;
+    width: 500px;
+    height: 110px;
+}
