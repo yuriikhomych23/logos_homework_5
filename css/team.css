@@ -24,12 +24,42 @@ header nav .navigation a:hover{
     margin: auto 40px;
 }
 
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.academy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #444;
+}
+
 .team {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 20px;
+    margin: 10px;
 }
+
 
 .andy-cube {
     border: 1px solid transparent;
@@ -38,7 +68,14 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
 }
+
+.andy-cube:hover {
+    background-color: lightblue;
+    transition: .8s;
+}
+
 
 .jullian-jobb {
     border: 1px solid transparent;
@@ -47,16 +84,29 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
 }
 
-.russell-mccarthy {
+.jullian-jobb:hover {
+    background-color: lightblue;
+    transition: .8s;
+}
+
+ .russell-mccarthy {
     border: 1px solid transparent;
     border-radius: 8px;
     background-color: white;
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
 }
+
+.russell-mccarthy:hover {
+    background-color: lightblue;
+    transition: .8s;
+}
+
 
 .john-jonson {
     border: 1px solid transparent;
@@ -65,6 +115,12 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
+}
+
+.john-jonson:hover {
+    background-color: lightblue;
+    transition: .8s;
 }
 
 .larry-mcgee {
@@ -74,6 +130,12 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
+}
+
+.larry-mcgee:hover {
+    background-color: lightblue;
+    transition: .8s;
 }
 
 .dominic-ain {
@@ -83,6 +145,12 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
+}
+
+.dominic-ain:hover{
+    background-color: lightblue;
+    transition: .8s;
 }
 
 .estella-horton {
@@ -92,6 +160,12 @@ header nav .navigation a:hover{
     font-size: 1rem;
     width: 250px;
     height: 250px;
+    padding: 30px;
+}
+
+.estella-horton:hover {
+    background-color: lightblue;
+    transition: .8s;
 }
 
 .dominic-dain {
@@ -100,10 +174,13 @@ header nav .navigation a:hover{
     background-color: white;
     font-size: 1rem;
     width: 250px;
-    height: 250px;
+    height: 250px; 
+    padding: 30px
 }
 
-.img {
-    display: flex;
-    justify-content: center;
+.dominic-dain:hover {
+    background-color: lightblue;
+    transition: all 0.8s;
 }
+
+
