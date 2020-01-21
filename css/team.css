@@ -69,6 +69,7 @@ header nav .navigation a:hover{
     width: 250px;
     height: 250px;
     padding: 25px;
+    position: relative;
 }
 
 .andy-cube:hover {
