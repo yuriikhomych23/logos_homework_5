@@ -25,50 +25,24 @@ header nav .navigation a:hover{
 }
 
 
-.main-card {
+aside {
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
+    align-items: center;
+    padding-left: 50px;
+    height: 100%;
 }
 
-.first-card {
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 1rem;
-    width: 500px;
-    height: 110px;
-}
-
-.second-card {
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 1rem;
-    width: 500px;
-    height: 110px;
-}
-
-.aside {
-    display: flex;
-    justify-content:left;
-    padding-left: 40px;
-}
-
-.icons {
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 1rem;
-    width: 80px;
+.aside_nav{
+    width: 100px;
     height: 400px;
+    background: white; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.third-card {
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 1rem;
-    width: 500px;
-    height: 110px;
+.aside_nav img{
+    width: 50px;
 }
