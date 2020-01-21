@@ -24,15 +24,25 @@ header nav .navigation a:hover{
     margin: auto 40px;
 }
 
-
-aside {
+main {
+    width: 1200px;
+    height: 550px;
+    background: #eee;
+    border-radius: 20px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    padding-left: 50px;
-    height: 100%;
+    justify-content: flex-start;
 }
 
-.aside_nav{
+aside {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asideCard {
     width: 100px;
     height: 400px;
     background: white; 
@@ -43,6 +53,170 @@ aside {
     align-items: center;
 }
 
-.aside_nav img{
-    width: 50px;
+.asideCard:hover::after {
+    
 }
+
+.asideCard img { 
+    width: 35px;
+    height: 35px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.cardContainerFirst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    right: 23px;
+}
+
+.cardContainer {
+    width: 600px;
+    height: 120px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cardContainerSecond {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardContainerSecondLeft {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftContainer {
+    width: 800px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cardContainerSecondRight {
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    right: 45px;
+}
+
+
+.projectName {
+    color: #B4B2B2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.language{
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.company {
+    color: #B4B2B2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.academy {
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.description {
+    padding-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.descriptionText {
+    padding-left: 20px;
+    color: #B4B2B2;
+}
+
+.teamContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+}
+
+.team {
+    font-size: 1.4rem;
+    font-weight: 900;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.descriptionTeam {
+    color: #B4B2B2;
+    display: flex;
+    justify-content: center;
+}
+
+.iconTeam {
+    width: 70px;
+    height: 70px;
+    display: block;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.dataContainer {
+    width: 100%;
+    height: 200px;
+}
+
+.data {
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.descriptionData {
+    color: #B4B2B2;
+    padding-left: 20px;
+}
+
+.iconData {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
