@@ -217,6 +217,21 @@ section {
 }
 
 
+.folder::after {
+    content:"Folder";
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .6s;
+}
+
+.folder:hover::after{
+    width: 100%;
+    background-color: red;
+}
+
+
 
 
 
